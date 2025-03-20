@@ -18,6 +18,19 @@ export const metadata: Metadata = {
   keywords: ["Ztype", "Clone", "Next.js", "Game"],
   authors: [{ name: "Avik Mukherjee" }],
   publisher: "Avik Mukherjee",
+  twitter:{
+    card:"summary",
+    creator:"@avikmukherjee",
+    site:"@avikmukherjee",
+    description:"A clone of the Ztype game built with Next.js currently in the development phase, changes will come soon. It is the initail version of the game.",
+    title:"Ztype Clone",
+  },
+  openGraph:{
+    type: "website",
+    description: "A clone of the Ztype game built with Next.js currently in the development phase, changes will come soon. It is the initail version of the game.",
+    title: "Ztype Clone",
+    siteName: "Ztype Clone"
+  }
 };
 
 export default function RootLayout({
